@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:background="#C9E7E7E7">
+    <TextView
+        android:layout_marginStart="10sp"
+        android:text="PUBG Mobile 0.15.0"
+        android:id="@+id/search_term"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="2sp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp" />
+    <TextView
+        android:id="@+id/trending_term"
+        android:layout_marginStart="10sp"
+        android:text="Trending Search"
+        android:layout_below="@id/search_term"
+        android:textColor="#A2FF40"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp" />
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginRight="10sp"
+        android:layout_width="30sp"
+        android:src="@drawable/ic_search"
+        android:layout_height="30sp"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

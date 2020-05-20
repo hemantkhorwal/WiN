@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="20sp"
+    android:layout_marginTop="10sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/post_head_img"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"/>
+
+    <TextView
+        android:id="@+id/headline_text"
+        android:textColor="#000"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:textSize="14sp"
+        android:layout_below="@id/post_head_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginEnd="20sp"
+        android:layout_marginStart="20sp"
+        android:layout_below="@id/headline_text"
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:id="@+id/post_type_logo"
+            android:layout_width="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:layout_height="40sp"/>
+
+        <LinearLayout
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="5sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="5sp">
+
+            <TextView
+                android:id="@+id/post_meta_title"
+                android:textStyle="bold"
+                android:layout_marginBottom="5sp"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/post_meta_desc"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

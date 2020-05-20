@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#DACFCFCF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/head_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/back_curved">
+
+        <TextView
+            android:id="@+id/meta_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="About Us"
+            android:justificationMode="inter_word"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10sp"
+        app:cardCornerRadius="20sp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rate_us"
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/rate_us_title"
+            android:text="Rate Us"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/ic_about_us"
+            android:layout_toEndOf="@id/rate_us_title"
+            android:layout_width="20sp"
+            android:layout_marginLeft="10sp"
+            android:layout_height="20sp"
+            android:layout_toRightOf="@id/rate_us_title" />
+        <TextView
+            android:layout_below="@id/rate_us_title"
+            android:layout_width="match_parent"
+            android:text="Share your valueable review with us and if you liked the app please rate us 5 starts on store"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10sp"
+        app:cardCornerRadius="20sp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/share_us"
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/share_us_title"
+            android:text="Share"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/ic_share"
+            android:layout_toEndOf="@id/share_us_title"
+            android:layout_width="20sp"
+            android:layout_marginLeft="10sp"
+            android:layout_height="20sp"
+            android:layout_toRightOf="@id/share_us_title" />
+        <TextView
+            android:layout_below="@id/share_us_title"
+            android:layout_width="match_parent"
+            android:text="If you liked our app then share it with you pubg squad and clan. To stay update."
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10sp"
+        android:background="#fff"
+        app:cardCornerRadius="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/contact_us"
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/contact_us_title"
+            android:text="Contact Us"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/ic_at"
+            android:layout_toEndOf="@id/contact_us_title"
+            android:layout_width="20sp"
+            android:layout_marginLeft="10sp"
+            android:layout_height="20sp"
+            android:layout_toRightOf="@id/contact_us_title" />
+        <TextView
+            android:layout_below="@id/contact_us_title"
+            android:layout_width="match_parent"
+            android:text="For promotions or any other query please mail us on\nhemantkhorwal@gmail.com \nWe will try to replay you as soon as possible."
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10sp"
+        app:cardCornerRadius="20sp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/privacy"
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/privacy_title"
+                android:text="Privacy Policy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@drawable/ic_privacy"
+                android:layout_toEndOf="@id/privacy_title"
+                android:layout_width="20sp"
+                android:layout_marginLeft="10sp"
+                android:layout_height="20sp"
+                android:layout_toRightOf="@id/privacy_title" />
+            <TextView
+                android:layout_below="@id/privacy_title"
+                android:layout_width="match_parent"
+                android:text="Read Our Privacy Policy and Disclaimer"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

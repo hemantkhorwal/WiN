@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "23062805730",
+    "firebase_url": "https://updates-for-pubg-mobile.firebaseio.com",
+    "project_id": "updates-for-pubg-mobile",
+    "storage_bucket": "updates-for-pubg-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23062805730:android:a87e0a18227d7c2d61f2bb",
+        "android_client_info": {
+          "package_name": "com.pubg.mobile.update.leaks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23062805730-fa394vp12tc3bnhu6rcb1g56egc7cjl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pubg.mobile.update.leaks",
+            "certificate_hash": "c4b163315356249e0a27600019854eed6b486b2c"
+          }
+        },
+        {
+          "client_id": "23062805730-kmohn2v0bj1lgsqrdse81gdnl9fsjkjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7yZRccmO9r88IyuTYqPfuzMRLtRXuXrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23062805730-kmohn2v0bj1lgsqrdse81gdnl9fsjkjm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

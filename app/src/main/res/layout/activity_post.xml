@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".Post">
+
+    <!--<RelativeLayout
+        android:id="@+id/head_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/back_curved">
+
+        <TextView
+            android:id="@+id/meta_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Latest News"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/about_us"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/ic_about_us"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5sp"
+            android:padding="5sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>-->
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+    <WebView
+        android:layout_above="@id/adView"
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ask_per_alert"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_margin="20sp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:padding="10sp"
+            android:text="To read the post, please allow the storage permission."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/ask_per_btn"
+            android:text="Allow To Load"
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_centerInParent="true"
+        android:layout_width="50sp"
+        android:layout_height="50sp"/>
+   <!-- <ImageView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+</RelativeLayout>

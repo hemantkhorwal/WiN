@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Updates For PUBG Mobile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="abt_text">The <b>\"News Pan : Updates For PUBG Mobile\"</b> is a non-official news app for PUBG Mobile. We do our best to provide you the answer for mostly asked question What is new in next update? or how to complete time limited events (in-game) and get amazing rewarads.</string>
+
+    <!--Ad Unit Ids-->
+    <string name="Test_Native">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="test_banner">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
